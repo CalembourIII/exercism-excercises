@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Hello World", "Exercise01\01 Hello World.csproj", "{96916C97-7B7B-4694-8C31-776B6C0FE05E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Lasagna", "Exercise02\02 Lasagna.csproj", "{C6C42791-28BD-4AD2-BCFC-A8D70B552AC7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 LogLines", "Exercise03\03 LogLines.csproj", "{7D26A262-BD36-4EBF-8363-5793ADEB2EBC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 QuestLogic", "Exercise04\04 QuestLogic.csproj", "{5F46333B-5550-4610-A03E-E2FCAE69A8EC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 LogAnalysis", "05 LogAnalysis\05 LogAnalysis.csproj", "{2990D4E1-1B50-4640-988D-7FD84D273BAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Lasagna", "02 Lasagna\02 Lasagna.csproj", "{C6C42791-28BD-4AD2-BCFC-A8D70B552AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 LogLines", "03 LogLines\03 LogLines.csproj", "{7D26A262-BD36-4EBF-8363-5793ADEB2EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Hello World", "01 Hello World\01 Hello World.csproj", "{96916C97-7B7B-4694-8C31-776B6C0FE05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 QuestLogic", "04 QuestLogic\04 QuestLogic.csproj", "{5F46333B-5550-4610-A03E-E2FCAE69A8EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6C42791-28BD-4AD2-BCFC-A8D70B552AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6C42791-28BD-4AD2-BCFC-A8D70B552AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C42791-28BD-4AD2-BCFC-A8D70B552AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,14 +31,14 @@ Global
 		{7D26A262-BD36-4EBF-8363-5793ADEB2EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D26A262-BD36-4EBF-8363-5793ADEB2EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D26A262-BD36-4EBF-8363-5793ADEB2EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96916C97-7B7B-4694-8C31-776B6C0FE05E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F46333B-5550-4610-A03E-E2FCAE69A8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F46333B-5550-4610-A03E-E2FCAE69A8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F46333B-5550-4610-A03E-E2FCAE69A8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F46333B-5550-4610-A03E-E2FCAE69A8EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2990D4E1-1B50-4640-988D-7FD84D273BAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

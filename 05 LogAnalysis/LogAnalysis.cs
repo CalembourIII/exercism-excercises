@@ -8,33 +8,23 @@ namespace _05_LogAnalysis
 {
     internal class LogAnalysis
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(SubstringAfter("[INFO]: File Deleted."));
-            //Console.WriteLine(LogLevel("[ERROR]: Invalid operation"));
-            //Console.WriteLine(Reformat("[INFO]: Operation completed"));
-        }
-
         // TODO: define the 'SubstringAfter()' extension method on the `string` type
-        static string SubstringAfter(string log)
+        public static string SubstringAfter(this string str, string after)
         {
-            string c = log.SubstringAfter();
-            return log.SubstringAfter(":");
-
-            string[] a = log.Split(':');
-            string b = a[1].Trim();
-            return $"\"{b}\"";
-
-
-            //int message = log.IndexOf(": ") + ": ".Length;
-            //return log.Substring(message).Trim();
+            int startAt = str.IndexOf(after) + after.Length;
+            return str.Substring(startAt);
         }
-
         // TODO: define the 'SubstringBetween()' extension method on the `string` type
+        public static string SubstringBetween(this string str, string start, string finish)
+        {
+            int startAt = str.IndexOf(start) + start.Length;
+            int finishAt = str.IndexOf(finish) - startAt;
+            return str.Substring(startAt, finishAt);
+        }
 
         // TODO: define the 'Message()' extension method on the `string` type
-
+        public static string Message(this string str) => str.SubstringAfter(": ");
         // TODO: define the 'LogLevel()' extension method on the `string` type
-
+        public static string LogLevel(this string str) => str.SubstringBetween("[", "]");
     }
 }

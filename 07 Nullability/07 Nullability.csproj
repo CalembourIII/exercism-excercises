@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{311055C5-A05F-4A81-A191-A0E1D52960B4}</ProjectGuid>
+    <ProjectGuid>{BA0A5113-B1E6-469F-BF16-26BE41E9C898}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06_CarsAssemble</RootNamespace>
-    <AssemblyName>06 CarsAssemble</AssemblyName>
+    <RootNamespace>_07_Nullability</RootNamespace>
+    <AssemblyName>07 Nullability</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarsAssemble.cs" />
+    <Compile Include="Nullability.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

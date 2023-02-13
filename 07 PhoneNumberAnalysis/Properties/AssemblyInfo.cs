@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("07 Nullability")]
+[assembly: AssemblyTitle("07 PhoneNumberAnalysis")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("07 Nullability")]
+[assembly: AssemblyProduct("07 PhoneNumberAnalysis")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ba0a5113-b1e6-469f-bf16-26be41e9c898")]
+[assembly: Guid("0af6bd3c-6355-43f3-8bcb-63a6da4f5232")]
 
 // Version information for an assembly consists of the following four values:
 //

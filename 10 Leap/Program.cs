@@ -19,5 +19,20 @@ namespace _10_Leap
             }
             else return false;
         }
+
+        public static bool IsLeapYear11(int year)
+        {
+            return (year % 4 == 0 && year % 100 != 0) || (year % 4 == 0 && year % 100 == 0 && year % 400 == 0);
+        }
+
+        public static bool IsLeapYear2(int year)
+        {
+            return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
+        }
+
+        public static bool IsLeapYear3(int year)
+        {
+            return year % 100 == 0 ? year % 400 == 0 : year % 4 == 0;
+        }
     }
 }

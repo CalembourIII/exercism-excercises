@@ -56,5 +56,16 @@ namespace _09_InterestIsInteresting
             }
             return yearsToTarget;
         }
+
+        public static int YearsBeforeDesiredBalance2(decimal balance, decimal targetBalance)
+        {
+            int yearsToTarget = 0;
+            do
+            {
+                balance = AnnualBalanceUpdate(balance);
+                ++yearsToTarget;
+            } while (balance < targetBalance);
+            return yearsToTarget;
+        }
     }
 }

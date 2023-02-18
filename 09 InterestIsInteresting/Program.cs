@@ -46,6 +46,7 @@ namespace _09_InterestIsInteresting
             return Interest(balance) + balance;
         }
 
+        // with WHILE
         public static int YearsBeforeDesiredBalance(decimal balance, decimal targetBalance)
         {
             int yearsToTarget = 0;
@@ -57,6 +58,7 @@ namespace _09_InterestIsInteresting
             return yearsToTarget;
         }
 
+        // with DO WHILE
         public static int YearsBeforeDesiredBalance2(decimal balance, decimal targetBalance)
         {
             int yearsToTarget = 0;
